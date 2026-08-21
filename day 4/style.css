@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100% ;
+}
+
+.box-img{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+     
+}
+
+.box-1{
+    background-image: url("./assets/1.jpg");
+    background-attachment: fixed;
+}
+
+.box-2{
+    background-image: url("./assets/2.jpg");
+    background-attachment: fixed;
+}
+
+.box-3{
+    background-image: url("./assets/3.jpg");
+    background-attachment: fixed;
+}
+
+.box-4{
+    background-image: url("./assets/4.jpg");
+    background-attachment: fixed;
+}
+
+.box-input{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-attachment: no-fixed;
+}

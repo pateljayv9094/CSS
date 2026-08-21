@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.pernt{
+    height: 600px;
+    width: 100%;
+   background-color: aquamarine;
+   display: flex;
+   margin: 10px;
+
+}
+
+.childe{
+    height: 100px;
+    width: 100px;
+   background-color: blue;
+    border-radius: 8px; 
+     text-align: center;
+     align-content: center;
+     margin: 10px;
+
+    
+    
+}
+
+.taks1{
+    justify-content: start;
+    align-items: start;
+}
+
+.taks2{
+    justify-content: center;
+    align-items: start;
+}
+
+.taks3{
+    justify-content: end;
+    align-items: start;
+}
+
+.taks4{
+    justify-content: end;
+    align-content: start;
+}
+
+.taks5{
+    justify-content: center;
+    align-content: center;
+}
+
+.taks6{
+    justify-content: start;
+    align-content: start;
+}
