@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+div p{
+    color: brown;
+
+}
+
+div > p {
+      font-weight: bold;
+}
+
+p ::after{
+    color: burlywood;
+    font-size: 26px;
+}
+ p::first-line {
+      text-transform: uppercase;     
+}
+
+p::selection {
+      background: yellow;
+      color: black;
+    }
+
+.list-items li:first-child {
+      color: green;
+    }
+
+.list-items li:last-child {
+      color: red;
+    }
+
+.list-items li:nth-child(2) {
+      font-weight: bold;
+    }
+
+.list-items li:nth-last-child(2) {
+      font-style: italic;
+    }
